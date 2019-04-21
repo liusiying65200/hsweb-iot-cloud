@@ -1,4 +1,0 @@
-{
-    ctx->
-        def
-}(__context)
