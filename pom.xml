@@ -23,10 +23,8 @@
         <spring.boot.version>1.5.13.RELEASE</spring.boot.version>
         <java.version>1.8</java.version>
         <project.build.jdk>${java.version}</project.build.jdk>
-
         <hsweb.framework.version>3.0.6-SNAPSHOT</hsweb.framework.version>
         <hsweb.expands.version>3.0.2</hsweb.expands.version>
-
         <docker.image.baseName>hsweb</docker.image.baseName>
     </properties>
 
@@ -58,7 +56,6 @@
                     <encoding>${project.build.sourceEncoding}</encoding>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
